@@ -1,0 +1,25 @@
+SMAP
+ViewParent_jsp.java
+JSP
+*S JSP
+*F
++ 0 ViewParent.jsp
+Admin/taxi/ViewParent.jsp
++ 1 header.jsp
+Admin/taxi/header.jsp
++ 2 footer.jsp
+Admin/taxi/footer.jsp
+*L
+5,2:51
+1#1,70:53
+7#0,7:122
+13:128,9
+14,87:137
+100,8:224
+107,2:232
+109,8:234,3
+117,2:258
+118,5:260
+122,10:265
+5#2,9:274
+*E

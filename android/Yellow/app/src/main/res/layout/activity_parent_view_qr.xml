@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.yellowridesafety.ParentTrackChild">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHILD STATUS"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pickuptime"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:text="Pickup Time"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/ptime"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pickupdate"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:text="Pickup Date"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/pdate"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pickupaddress"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:text="Pickup Address"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/paddress"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/droptime"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:text="Phone No"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/dtime"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dropaddress"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:text="EMAIL"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/daddress"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
